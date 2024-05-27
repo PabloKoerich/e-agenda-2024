@@ -46,9 +46,10 @@
             // 
             btnGravar.DialogResult = DialogResult.OK;
             btnGravar.Font = new Font("Segoe UI", 11.25F);
-            btnGravar.Location = new Point(276, 209);
+            btnGravar.Location = new Point(315, 279);
+            btnGravar.Margin = new Padding(3, 4, 3, 4);
             btnGravar.Name = "btnGravar";
-            btnGravar.Size = new Size(100, 37);
+            btnGravar.Size = new Size(114, 49);
             btnGravar.TabIndex = 10;
             btnGravar.Text = "Gravar";
             btnGravar.UseVisualStyleBackColor = true;
@@ -58,9 +59,10 @@
             // 
             btnCancelar.DialogResult = DialogResult.Cancel;
             btnCancelar.Font = new Font("Segoe UI", 11.25F);
-            btnCancelar.Location = new Point(382, 209);
+            btnCancelar.Location = new Point(437, 279);
+            btnCancelar.Margin = new Padding(3, 4, 3, 4);
             btnCancelar.Name = "btnCancelar";
-            btnCancelar.Size = new Size(100, 37);
+            btnCancelar.Size = new Size(114, 49);
             btnCancelar.TabIndex = 9;
             btnCancelar.Text = "Cancelar";
             btnCancelar.UseVisualStyleBackColor = true;
@@ -76,9 +78,11 @@
             groupBox1.Controls.Add(rdbCompromissosPassados);
             groupBox1.Controls.Add(rdbTodosCompromissos);
             groupBox1.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            groupBox1.Location = new Point(12, 12);
+            groupBox1.Location = new Point(14, 16);
+            groupBox1.Margin = new Padding(3, 4, 3, 4);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(470, 191);
+            groupBox1.Padding = new Padding(3, 4, 3, 4);
+            groupBox1.Size = new Size(537, 255);
             groupBox1.TabIndex = 11;
             groupBox1.TabStop = false;
             groupBox1.Text = "Selecione um Filtro:";
@@ -87,9 +91,9 @@
             // 
             lblTerminoPeriodo.AutoSize = true;
             lblTerminoPeriodo.Enabled = false;
-            lblTerminoPeriodo.Location = new Point(276, 161);
+            lblTerminoPeriodo.Location = new Point(310, 215);
             lblTerminoPeriodo.Name = "lblTerminoPeriodo";
-            lblTerminoPeriodo.Size = new Size(66, 20);
+            lblTerminoPeriodo.Size = new Size(84, 25);
             lblTerminoPeriodo.TabIndex = 2;
             lblTerminoPeriodo.Text = "Término:";
             lblTerminoPeriodo.Visible = false;
@@ -98,9 +102,9 @@
             // 
             lblInicioPeriodo.AutoSize = true;
             lblInicioPeriodo.Enabled = false;
-            lblInicioPeriodo.Location = new Point(98, 161);
+            lblInicioPeriodo.Location = new Point(112, 215);
             lblInicioPeriodo.Name = "lblInicioPeriodo";
-            lblInicioPeriodo.Size = new Size(48, 20);
+            lblInicioPeriodo.Size = new Size(62, 25);
             lblInicioPeriodo.TabIndex = 2;
             lblInicioPeriodo.Text = "Início:";
             lblInicioPeriodo.Visible = false;
@@ -109,9 +113,10 @@
             // 
             txtTerminoPeriodo.Enabled = false;
             txtTerminoPeriodo.Format = DateTimePickerFormat.Short;
-            txtTerminoPeriodo.Location = new Point(346, 158);
+            txtTerminoPeriodo.Location = new Point(395, 211);
+            txtTerminoPeriodo.Margin = new Padding(3, 4, 3, 4);
             txtTerminoPeriodo.Name = "txtTerminoPeriodo";
-            txtTerminoPeriodo.Size = new Size(118, 27);
+            txtTerminoPeriodo.Size = new Size(134, 32);
             txtTerminoPeriodo.TabIndex = 1;
             txtTerminoPeriodo.Visible = false;
             // 
@@ -119,18 +124,20 @@
             // 
             txtInicioPeriodo.Enabled = false;
             txtInicioPeriodo.Format = DateTimePickerFormat.Short;
-            txtInicioPeriodo.Location = new Point(152, 158);
+            txtInicioPeriodo.Location = new Point(174, 211);
+            txtInicioPeriodo.Margin = new Padding(3, 4, 3, 4);
             txtInicioPeriodo.Name = "txtInicioPeriodo";
-            txtInicioPeriodo.Size = new Size(118, 27);
+            txtInicioPeriodo.Size = new Size(134, 32);
             txtInicioPeriodo.TabIndex = 1;
             txtInicioPeriodo.Visible = false;
             // 
             // rdbCompromissosPeriodo
             // 
             rdbCompromissosPeriodo.AutoSize = true;
-            rdbCompromissosPeriodo.Location = new Point(24, 126);
+            rdbCompromissosPeriodo.Location = new Point(27, 168);
+            rdbCompromissosPeriodo.Margin = new Padding(3, 4, 3, 4);
             rdbCompromissosPeriodo.Name = "rdbCompromissosPeriodo";
-            rdbCompromissosPeriodo.Size = new Size(232, 24);
+            rdbCompromissosPeriodo.Size = new Size(291, 29);
             rdbCompromissosPeriodo.TabIndex = 0;
             rdbCompromissosPeriodo.TabStop = true;
             rdbCompromissosPeriodo.Text = "Compromissos em um período";
@@ -140,9 +147,10 @@
             // rdbCompromissosFuturos
             // 
             rdbCompromissosFuturos.AutoSize = true;
-            rdbCompromissosFuturos.Location = new Point(24, 96);
+            rdbCompromissosFuturos.Location = new Point(27, 128);
+            rdbCompromissosFuturos.Margin = new Padding(3, 4, 3, 4);
             rdbCompromissosFuturos.Name = "rdbCompromissosFuturos";
-            rdbCompromissosFuturos.Size = new Size(177, 24);
+            rdbCompromissosFuturos.Size = new Size(225, 29);
             rdbCompromissosFuturos.TabIndex = 0;
             rdbCompromissosFuturos.TabStop = true;
             rdbCompromissosFuturos.Text = "Compromissos Futuros";
@@ -151,9 +159,10 @@
             // rdbCompromissosPassados
             // 
             rdbCompromissosPassados.AutoSize = true;
-            rdbCompromissosPassados.Location = new Point(24, 66);
+            rdbCompromissosPassados.Location = new Point(27, 88);
+            rdbCompromissosPassados.Margin = new Padding(3, 4, 3, 4);
             rdbCompromissosPassados.Name = "rdbCompromissosPassados";
-            rdbCompromissosPassados.Size = new Size(188, 24);
+            rdbCompromissosPassados.Size = new Size(238, 29);
             rdbCompromissosPassados.TabIndex = 0;
             rdbCompromissosPassados.TabStop = true;
             rdbCompromissosPassados.Text = "Compromissos Passados";
@@ -162,9 +171,10 @@
             // rdbTodosCompromissos
             // 
             rdbTodosCompromissos.AutoSize = true;
-            rdbTodosCompromissos.Location = new Point(24, 36);
+            rdbTodosCompromissos.Location = new Point(27, 48);
+            rdbTodosCompromissos.Margin = new Padding(3, 4, 3, 4);
             rdbTodosCompromissos.Name = "rdbTodosCompromissos";
-            rdbTodosCompromissos.Size = new Size(188, 24);
+            rdbTodosCompromissos.Size = new Size(235, 29);
             rdbTodosCompromissos.TabIndex = 0;
             rdbTodosCompromissos.TabStop = true;
             rdbTodosCompromissos.Text = "Todos os Compromissos";
@@ -172,13 +182,14 @@
             // 
             // TelaFiltroCompromissoForm
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(496, 258);
+            ClientSize = new Size(567, 344);
             Controls.Add(groupBox1);
             Controls.Add(btnGravar);
             Controls.Add(btnCancelar);
             FormBorderStyle = FormBorderStyle.FixedDialog;
+            Margin = new Padding(3, 4, 3, 4);
             MaximizeBox = false;
             MinimizeBox = false;
             Name = "TelaFiltroCompromissoForm";
