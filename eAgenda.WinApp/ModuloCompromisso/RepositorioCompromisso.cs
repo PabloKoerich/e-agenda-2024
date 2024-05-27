@@ -2,7 +2,7 @@
 
 namespace eAgenda.WinApp.ModuloCompromisso
 {
-    public class RepositorioCompromisso : RepositorioBase<Compromisso>
+    public class RepositorioCompromisso : RepositorioTarefas<Compromisso>
     {
         public List<Compromisso> SelecionarCompromissosFuturos()
         {

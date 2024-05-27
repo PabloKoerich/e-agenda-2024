@@ -1,6 +1,6 @@
 ﻿namespace eAgenda.ConsoleApp.Compartilhado
 {
-    public abstract class RepositorioBase<T> where T : EntidadeBase
+    public abstract class RepositorioTarefas<T> where T : EntidadeBase
     {
         protected List<T> registros = new List<T>();
 
