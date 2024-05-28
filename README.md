@@ -42,12 +42,6 @@ Para isto, será necessário fazer uma gestão de contatos inteligente e JP pret
 	- Título
         - Conclusão (Status)
         - Tarefa
-
-
-
-
-
-
 ---
 ## Requisitos
 
